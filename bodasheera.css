@@ -1,0 +1,19 @@
+.zoom-effect {
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.zoom-effect:hover {
+    box-shadow: 0 0 25px rgb(0, 0, 0.5); /* Adjust the shadow size as needed */
+}
+
+.hover-color {
+    color: white !important;
+}
+
+.hover-color:hover {
+    color: yellow !important;
+}
+
+.active {
+    color: yellow !important;
+}
